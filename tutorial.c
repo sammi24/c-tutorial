@@ -31,16 +31,16 @@ int main()
   struct employee_t *employees = malloc(sizeof(struct employee_t) * n);
   if (employees == NULL)
   {
-    // printf("The allocator failed\n");
+    printf("The allocator failed\n");
     return -1;
   }
 
   for (int i = 0; i < n; i++)
   {
     int id = initialize_ee(&employees[i]);
-    // printf("New Employee, ID is %d\n", id);
+    printf("New Employee, ID is %d\n", id);
   }
-
+  free(employees);
   employees = NULL;
 
   return 0;
