@@ -1,0 +1,9 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     tutorial
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initialize_ee, symObjAddr: 0x0, symBinAddr: 0x100003E80, symSize: 0x40 }
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _initialize_ee, symObjAddr: 0x0, symBinAddr: 0x100003E80, symSize: 0x40 }
+  - { offsetInCU: 0x58, offset: 0x58, size: 0x8, addend: 0x0, symName: _initialize_ee.numEmployees, symObjAddr: 0x77C, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x40, symBinAddr: 0x100003EC0, symSize: 0xAD }
+...
